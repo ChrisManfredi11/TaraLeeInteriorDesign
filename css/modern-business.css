@@ -1,0 +1,167 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-family: 'Ovo';
+    text-align: center;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-family: 'Ovo';
+}
+
+h3 {
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+h4 {
+    font-weight: normal;
+    font-family: 'Raleway'
+}
+
+.MainTitle {
+    font-weight: bolder;
+}
+
+.rpTitle {
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.socialMedia {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+a.navItem:hover {
+    color: black;
+    font-family: 'Raleway';
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.recentprojectsimg {
+    max-width: 100%;
+    height: auto;
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.moreinfobtn {
+  font-family: 'Raleway';
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+
+    .RecentProjects {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+
+
+.RecentProjects {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+}
