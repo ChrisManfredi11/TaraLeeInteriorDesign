@@ -20,6 +20,11 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css">
+
+
+
+
     <!-- Google Font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ovo&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -29,7 +34,8 @@
 <body>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -52,14 +58,14 @@
 </div>
 
 <div class="row">
-    <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 text-center">
+    <div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 text-center">
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 text-center">
+    <div class="col-lg-4 col-md-8 col-sm-8 col-xs-8 text-center">
         <img href="#" src="img/facebook.png">
         <a href="#"><img src="img/twitter.png"></a>
          <a href="#"><img src="img/instagram.png"></a>
     </div>
-    <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 text-center">
+    <div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 text-center">
     </div>
 </div>
 
@@ -86,13 +92,13 @@
                         <a class="navItem" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="navItem" href="#">About Me</a>
+                        <a class="navItem" href="aboutme.html">About Me</a>
                     </li>
                     <li>
-                        <a class="navItem" href="#">Services</a>
+                        <a class="navItem" href="services.html">Services</a>
                     </li>
                     <li>
-                        <a class="navItem" href="#">Contact Me</a>
+                        <a class="navItem" href="contact.html">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +111,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h1 class="rpTitle"> Current Projects </h1>
+                <h1 class=""> Current Projects </h1>
             </div>
         </div>
 
@@ -118,29 +124,29 @@
 
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects">
                 <h3> Uptown Cottage </h3>
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="#uptowncottage"><img class="recentprojectsimg" src="img/projects2.jpg"></a>
             </div>
 
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects">
                 <h3> Penthouse Loft </h3>
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="#penthouseloft"><img class="recentprojectsimg" src="img/projects3.jpg"></a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects">
                 <h3> Park Ave Apartment </h3>
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="#parkaveapartment"><img class="recentprojectsimg" src="img/projects4.jpg"></a>
             </div>
 
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects">
                 <h3> Waterfront Condo </h3>
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="#waterfrontcondo"><img class="recentprojectsimg" src="img/projects5.jpg"></a>
             </div>
 
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects">
                 <h3> Downtown Luxury </h3>
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="#downtownluxury"><img class="recentprojectsimg" src="img/projects6.jpg"></a>
             </div>
         </div>
 
@@ -149,25 +155,31 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="villagetownhouse">
-                <h3> Village Townhouse </h3>
+                <h3 class="rpTitle"> Village Townhouse </h3>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="img/projects1.jpg" data-title="Caption Here" data-lightbox="Projects">
+                    <img src="img/projects1.jpg" class="img-thumbnail">
+                </a>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="img/projects2.jpg" data-title="Caption Here" data-lightbox="Projects">
+                    <img src="img/projects2.jpg" class="img-thumbnail">
+                </a>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <a href="img/projects3.jpg" data-title="Caption Here" data-lightbox="Projects">
+                    <img src="img/projects3.jpg" class="img-thumbnail">
+                </a>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
         </div>
 
@@ -175,7 +187,11 @@
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
@@ -183,11 +199,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
         </div>
 
@@ -195,7 +207,7 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="uptowncottage">
-                <h3> Uptown Cottage </h3>
+                <h3 class="rpTitle"> Uptown Cottage </h3>
             </div>
         </div>
 
@@ -205,15 +217,15 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
         </div>
 
@@ -221,7 +233,11 @@
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
@@ -229,11 +245,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
         </div>
 
@@ -241,25 +253,25 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="penthouseloft">
-                <h3> Penthouse Loft </h3>
+                <h3 class="rpTitle"> Penthouse Loft </h3>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
         </div>
 
@@ -271,15 +283,15 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
         </div>
 
@@ -287,13 +299,17 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="parkaveapartment">
-                <h3> Park Ave Apartment </h3>
+                <h3 class="rpTitle"> Park Ave Apartment </h3>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
@@ -301,11 +317,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
         </div>
 
@@ -313,19 +325,19 @@
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
         </div>
 
@@ -333,7 +345,7 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="waterfrontcondo">
-                <h3> Waterfront Condo </h3>
+                <h3 class="rpTitle"> Waterfront Condo </h3>
             </div>
         </div>
 
@@ -343,15 +355,15 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
         </div>
 
@@ -359,7 +371,11 @@
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
@@ -367,11 +383,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
         </div>
 
@@ -379,25 +391,25 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center RecentProjects" id="downtownluxury">
-                <h3> Downtown Luxury </h3>
+                <h3 class="rpTitle"> Downtown Luxury </h3>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects5.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects6.jpg">
             </div>
         </div>
 
@@ -409,15 +421,15 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects2.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects3.jpg">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-                <img class="recentprojectsimg" src="img/projects1.jpg">
+                <img class="recentprojectsimg" src="img/projects4.jpg">
             </div>
         </div>
 
@@ -432,16 +444,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2 text-center">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+                <div class="col-lg-6 col-md-8 col-sm-8 col-xs-8 text-center">
                     
                     <a href="#"><img src="img/mail.png"></a>
                     <a href="#"><img src="img/linkedin.png"></a>
                     <a href="#"><img src="img/website.png"></a>
                 
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+                <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2 text-center">
                 </div>
             </div>
             </div>
@@ -457,19 +469,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
 
     <script>
-    $('a[href^="#"]').on('click', function(event) {
-
-        var target = $(this.getAttribute('href'));
-
-        if( target.length ) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 1000);
-        }
-
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
     });
     </script>
 

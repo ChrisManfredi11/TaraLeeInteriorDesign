@@ -15,6 +15,7 @@ h1 {
     font-family: 'Ovo';
     text-align: center;
     font-size: 2.3em;
+    font-weight: bolder;
 }
 
 h2 {
@@ -63,6 +64,11 @@ a.navItem:hover {
 
 ul li a:hover {
     color: black;
+}
+
+.Service {
+    padding: 3%;
+    margin: 5% 0 5% 0;
 }
 
 .recentprojectsimg {
